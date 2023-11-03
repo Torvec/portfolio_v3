@@ -5,12 +5,11 @@ import { Routes, Route } from 'react-router-dom';
 import { Home, Resume, Portfolio, Project, Socials, Blog } from './pages';
 import AppFooter from './components/AppFooter';
 
-
 function App() {
   return (
-    <>
+    <div className="flex h-screen flex-col">
       <AppHeader />
-      <main>
+      <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/resume" element={<Resume />} />
@@ -21,7 +20,7 @@ function App() {
         </Routes>
       </main>
       <AppFooter />
-    </>
+    </div>
   );
 }
 

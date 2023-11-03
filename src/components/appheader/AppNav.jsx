@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 function AppNav() {
   return (
     <nav>
-      <ul className='flex gap-10'>
+      <ul className="flex gap-10">
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
