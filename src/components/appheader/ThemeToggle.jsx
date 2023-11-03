@@ -1,7 +1,7 @@
 function ThemeToggle() {
   return (
     <>
-      <button>Theme</button>
+      <button className="rounded-full bg-gray-500 text-white py-1 px-4 uppercase text-sm">L / D</button>
     </>
   );
 }
