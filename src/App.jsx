@@ -1,5 +1,5 @@
 import './App.css';
-import './pages/server/server';
+import './server/server';
 import AppHeader from './components/appheader/AppHeader';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Resume, Portfolio, Project, Socials, Blog } from './pages';

@@ -2,6 +2,7 @@ import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import FeaturedProjects from "./FeaturedProjects";
 import Testimonials from "./Testimonials";
+import ContactMe from "./ContactMe";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <AboutMe />
       <FeaturedProjects />
       <Testimonials />
+      <ContactMe />
     </div>
   );
 }
